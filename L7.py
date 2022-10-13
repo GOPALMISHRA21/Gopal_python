@@ -1,3 +1,6 @@
+from re import A
+
+
 names=['Raymond','Cynthia','David','Jenifer','Clatyon','Mike']
 frist_letters=[]
 last_letters=[]
@@ -15,4 +18,6 @@ for name in names:
     p1,p2=name.split('.')
     frist_letters.append(name[0])
     last_letters.append(name[-1])
-short_names=[frist]
+frist_letters=x
+last_letters=b
+short_names=[x+b]
