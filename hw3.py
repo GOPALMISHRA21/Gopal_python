@@ -14,7 +14,7 @@ c=Actor('cookie_img',(rx,ry))   #cookie
 score = 0
 
 def draw():
-    if score<=2:
+    if score<=5:
         screen.clear()
         p.draw()
         c.draw()
