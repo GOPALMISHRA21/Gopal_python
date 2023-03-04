@@ -5,8 +5,8 @@ import random
 WIDTH=1200
 HEIGHT=500
 
-p=Actor('ironman',(50,50))   #player speed
-p.speed = 5
+p=Actor('ironman',(50,50))   
+p.speed = 5    #player speed
 rx = random.randint(50,WIDTH-50)
 ry = random.randint(50,HEIGHT-50)
 c=Actor('cookie_img',(rx,ry))   #cookie
